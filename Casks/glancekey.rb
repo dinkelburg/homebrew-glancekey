@@ -4,10 +4,15 @@ cask "glancekey" do
 
   url "https://download.glancekey.com/GlanceKey-#{version}.zip"
   name "GlanceKey"
-  desc "Unlock your Mac and approve sudo with Face ID on your iPhone"
+  desc "Unlock your computer and approve sudo with Face ID on your iPhone"
   homepage "https://www.glancekey.com/"
 
-  depends_on macos: ">= :sonoma"
+  livecheck do
+    url "https://download.glancekey.com/GlanceKey.zip"
+    strategy :extract_plist
+  end
+
+  depends_on macos: :sonoma
 
   app "GlanceKey.app"
 
