@@ -5,10 +5,10 @@ class GlancekeyAgent < Formula
 
   if Hardware::CPU.arm?
     url "https://download.glancekey.com/glancekey-agent-1.0-linux-arm64"
-    sha256 "fc92b74afe58868506c1c575fba79724249eadf75643a3c8bc744b3b64185517"
+    sha256 "7c1e41c7623a2f91f53d00791dae6cd757f317d62d462cb07d7f952c677a09f1"
   else
     url "https://download.glancekey.com/glancekey-agent-1.0-linux-amd64"
-    sha256 "33ab1e456f6bf6f76426d084a80fd91197fa420eaba7842c9c689020ff8c615e"
+    sha256 "91a95f96d4cc4a1c76973226ec65d4ef313b9b3e3eb461d306b39ad5b038dca4"
   end
 
   depends_on :linux
