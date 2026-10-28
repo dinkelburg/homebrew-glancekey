@@ -1,6 +1,6 @@
 cask "glancekey" do
-  version "1.0.2"
-  sha256 "aa0baf86b1484babc07f0dd021ec6d9816f66d63d558e5c4b2ae50fc63d8b661"
+  version "1.0.3"
+  sha256 "5d09eca44c229577aebac54d9f09506dc557d3f7969c87461081862a1a522327"
 
   url "https://download.glancekey.com/GlanceKey-#{version}.dmg"
   name "GlanceKey"
