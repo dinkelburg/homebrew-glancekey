@@ -1,14 +1,14 @@
 class GlancekeyAgent < Formula
   desc "Unlock your computer and approve sudo with Face ID on your iPhone"
   homepage "https://www.glancekey.com/"
-  version "1.0.1"
+  version "1.0.2"
 
   if Hardware::CPU.arm?
-    url "https://download.glancekey.com/glancekey-agent-1.0.1-linux-arm64"
-    sha256 "5c25f48304492ecf9c99b4b76b4b94d3f6848120ac3b0ea90458e570832f59f1"
+    url "https://download.glancekey.com/glancekey-agent-1.0.2-linux-arm64"
+    sha256 "96fc74a87e8ef62d13b3604f7c7b98a4b0633835096547903a0ccaebe99ad52e"
   else
-    url "https://download.glancekey.com/glancekey-agent-1.0.1-linux-amd64"
-    sha256 "c0fbbe0f3bcb0ad27f2c882266fd5b493fc46580c9f760097f15083be47a1453"
+    url "https://download.glancekey.com/glancekey-agent-1.0.2-linux-amd64"
+    sha256 "829dbbf1b8438985a91a3fe21431198403629176101d24ec721ae17ee11f3933"
   end
 
   depends_on :linux
